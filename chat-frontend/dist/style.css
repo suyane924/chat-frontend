@@ -1,0 +1,118 @@
+body {
+  font-family: Arial;
+  font-size: 15px;
+  color: black;
+  background-color: white;
+}
+
+#tela {
+  max-width: 720px;
+  min-width: 360px;
+  margin: 0 auto;
+}
+
+
+header { 
+  font-family: Calibri;
+  color: green;
+  padding: 14px 21px;
+}
+
+header {
+  width: 670px;
+  border: 3px solid green;
+  border-radius:2px;  
+}
+ 
+
+header h1 {
+  ertical-height: 1px;
+  font-size: 34px;
+  margin: 0;
+  padding: 1px;
+}
+
+p {
+  font-size: 13px;
+  color: black;
+  line-height: 12px;
+  padding: 4px; 
+}
+
+.mensagem1 {
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 12px;
+  outline: 0;
+}
+
+.mensagem2 {
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 12px;
+  outline: 0;
+}
+
+.mensagem3 {
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 12px;
+  outline: 0;
+}
+
+.mensagem4 {
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 12px;
+  outline: 0;
+} 
+
+#tela {
+  border: 3px solid green;
+  border-radius:4px;
+  font-size: 18px;
+  padding: 16px;
+  outline: 0;
+}
+
+form input {
+  border: 3px solid green;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 9px;
+  outline: 0px;
+  width: 610px;
+}
+
+form button {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  padding: 13px 19px;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer; 
+}
+
+#conversa {
+  border: 3px solid green;
+  width: 671px;
+  border-radius: 2px;
+  padding: 20px;
+  margin: 3px 0.5px;
+}
+
+.lado {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
